@@ -28,6 +28,9 @@ export default function Home() {
         height={200}
         priority
       />
+
+
+      <p>안녕하세요 최승이입니다 잘부탁드립니다!!!! </p>
     </div>
   );
 }
