@@ -18,12 +18,14 @@
 ## 2. 폴더 구조
 
 ```
+📦public
+ ┗ 📂images
+ ┃ ┗ 📜cat.jpg
 📦src
  ┣ 📂app
  ┃ ┣ 📂fonts
  ┃ ┃ ┣ 📜GeistMonoVF.woff
  ┃ ┃ ┗ 📜GeistVF.woff
- ┃ ┣ 📜favicon.ico
  ┃ ┣ 📜layout.jsx
  ┃ ┗ 📜page.jsx
  ┣ 📂components
