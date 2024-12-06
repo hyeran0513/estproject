@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 이스트소프트 프론트엔드 부트캠프 - 프로젝트1
 
-## Getting Started
+## 🌟 팀원
+| 김혜란  | 박세진      | 최승이    | 형주희   |
+|--------|-------------|-----------|----------|
+<br/>
 
-First, run the development server:
+## 1. 프로젝트 시작하기
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. **프로젝트 실행 명령어**
+
+   프로젝트를 Fork하고, 로컬 환경에 클론한 후 작업을 시작해 주세요.
+
+   ```bash
+   npm run dev
+<br/>
+
+## 2. 폴더 구조
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📦src
+ ┣ 📂app
+ ┃ ┣ 📂fonts
+ ┃ ┃ ┣ 📜GeistMonoVF.woff
+ ┃ ┃ ┗ 📜GeistVF.woff
+ ┃ ┣ 📜layout.jsx
+ ┃ ┗ 📜page.jsx
+ ┣ 📂assets
+ ┃ ┣ 📂images
+ ┃ ┗ 📂styles
+ ┃ ┃ ┣ 📂base
+ ┃ ┃ ┃ ┣ 📜globals.scss
+ ┃ ┃ ┃ ┗ 📜variables.scss
+ ┃ ┃ ┣ 📂components
+ ┃ ┃ ┃ ┗ 📂common
+ ┃ ┃ ┃ ┃ ┣ 📜footer.module.scss
+ ┃ ┃ ┃ ┃ ┗ 📜header.module.scss
+ ┃ ┃ ┗ 📂pages
+ ┃ ┃ ┃ ┗ 📜page.module.scss
+ ┗ 📂components
+ ┃ ┗ 📂common
+ ┃ ┃ ┣ 📜Footer.jsx
+ ┃ ┃ ┗ 📜Header.jsx
+```
