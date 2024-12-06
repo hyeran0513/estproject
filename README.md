@@ -23,22 +23,21 @@
  ┃ ┣ 📂fonts
  ┃ ┃ ┣ 📜GeistMonoVF.woff
  ┃ ┃ ┗ 📜GeistVF.woff
+ ┃ ┣ 📜favicon.ico
  ┃ ┣ 📜layout.jsx
  ┃ ┗ 📜page.jsx
- ┣ 📂assets
- ┃ ┣ 📂images
- ┃ ┗ 📂styles
- ┃ ┃ ┣ 📂base
- ┃ ┃ ┃ ┣ 📜globals.scss
- ┃ ┃ ┃ ┗ 📜variables.scss
- ┃ ┃ ┣ 📂components
- ┃ ┃ ┃ ┗ 📂common
- ┃ ┃ ┃ ┃ ┣ 📜footer.module.scss
- ┃ ┃ ┃ ┃ ┗ 📜header.module.scss
- ┃ ┃ ┗ 📂pages
- ┃ ┃ ┃ ┗ 📜page.module.scss
- ┗ 📂components
+ ┣ 📂components
  ┃ ┗ 📂common
  ┃ ┃ ┣ 📜Footer.jsx
  ┃ ┃ ┗ 📜Header.jsx
+ ┗ 📂styles
+ ┃ ┣ 📂base
+ ┃ ┃ ┣ 📜globals.scss
+ ┃ ┃ ┗ 📜variables.scss
+ ┃ ┣ 📂components
+ ┃ ┃ ┗ 📂common
+ ┃ ┃ ┃ ┣ 📜footer.module.scss
+ ┃ ┃ ┃ ┗ 📜header.module.scss
+ ┃ ┗ 📂pages
+ ┃ ┃ ┗ 📜page.module.scss
 ```
